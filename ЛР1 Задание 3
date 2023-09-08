@@ -1,0 +1,14 @@
+import math
+# Ввод кол-ва эл и запись этих эл в массив
+n = int(input("Enter number of elements: "))
+el = []
+i = 0
+
+while i < n:
+    num = int(input("Enter element: "))
+    num_cubed = num ** 3
+    el.append(num_cubed)
+    i = i + 1
+print("List of elements cubed:", el)
+print("Sum in the list: ", sum(el))
+print("Proizvedenie in the list: ", math.prod(el))
