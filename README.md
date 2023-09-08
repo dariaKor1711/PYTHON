@@ -1,2 +1,2 @@
 # PYTHON
-ЛР по СЯП python
+ЛР1 по СЯП python
